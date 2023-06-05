@@ -1,0 +1,75 @@
+.header {
+  margin-left: 100px;
+  border-bottom: 1px solid #e1e1e1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  &__info {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+  &__logo {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #e2e2ea;
+    border-radius: 8px;
+  }
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+  }
+  &__bell {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/bell.svg');
+    background-size: cover;
+  }
+  &__user {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+
+    &-container {
+      display: flex;
+      gap: 17px;
+      align-items: center;
+    }
+    &-avatar {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background: #e2e2ea;
+      border-radius: 50%;
+    }
+    &-name {
+      margin: 0;
+      padding: 0;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 120%;
+      letter-spacing: 0.005em;
+    }
+    &-job {
+      margin: 4px 0 0;
+      padding: 0;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 120%;
+      letter-spacing: 0.008em;
+      color: #9a9ab0;
+    }
+  }
+}

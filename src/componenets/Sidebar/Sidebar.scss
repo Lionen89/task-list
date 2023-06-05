@@ -1,0 +1,17 @@
+.sidebar {
+  height: 100vh;
+  width: 80px;
+  margin-left: 103px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #e1e1e1;
+  &__dashboard {
+    width: 56px;
+    height: 52px;
+    background-image: url('../../images/dashboard.svg');
+    background-size: cover;
+    border-radius: 8px;
+    margin-top: 54px;
+    cursor: pointer;
+  }
+}

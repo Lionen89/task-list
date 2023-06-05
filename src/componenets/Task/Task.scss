@@ -1,0 +1,36 @@
+.task {
+  height: 68px;
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.008em;
+    opacity: 0.8;
+  }
+  &__select {
+    text-align: start;
+    width: 111px;
+    height: 36px;
+    border: 0.5px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    &_inwork {
+      background-color: #ffccdd;
+    }
+  }
+  &:hover {
+    background-color: #71faca;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .task {
+    &__item {
+      font-size: 12px;
+      line-height: 100%;
+    }
+  }
+}
